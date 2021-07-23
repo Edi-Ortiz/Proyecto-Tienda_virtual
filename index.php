@@ -33,6 +33,4 @@
     echo "metodo:".$method;
     echo "<br>";
     echo "parametros".$params;
-
-
 ?>
