@@ -1,5 +1,8 @@
 <?php
 
+    require_once("Config/Config.php");
+    require_once("Helpers/Helperts.php");
+
     $url = !empty($_GET['url']) ? $_GET['url'] : 'home/home';
     $arrUrl = explode("/", $url);
     $controller = $arrUrl[0];
@@ -26,11 +29,7 @@
             $params = trim($params, ',');
         }
     }
+    require_once("Libraries/Core/Autoload.php");
+    require_once("Libraries/Core/Load.php");
 
-    echo "<br>";
-    echo "controlador: ".$controller;
-    echo "<br>";
-    echo "metodo:".$method;
-    echo "<br>";
-    echo "parametros".$params;
 ?>
