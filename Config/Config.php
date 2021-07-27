@@ -1,7 +1,7 @@
 <?php
 
     //define("BASE_URL", "http://localhost/Proyecto-Tienda_Virtual/");
-    const BASE_URL = "http://localhost/Proyecto-Tienda_Virtual/";
+    const BASE_URL = "http://localhost/Proyecto-Tienda_Virtual";
 
     //Zona horaria
     date_default_timezone_set('America/Tegucigalpa');

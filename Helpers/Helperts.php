@@ -5,6 +5,24 @@
     {
         return BASE_URL;
     }
+    //retorna la url de assets
+    function media()
+    {
+        return BASE_URL."/Assets";
+    }
+    // unir codigo html5 
+    function headerAdmin($data="")
+    {
+        $view_header = "Views/Template/header_admin.php";
+        require_once ($view_header);
+    }
+    function footerAdmin($data="")
+    {
+        $view_footer = "Views/Template/footer_admin.php";
+        require_once ($view_footer);
+    }
+
+
     //mostrar informacion formateada
     function dep($data)
     {
